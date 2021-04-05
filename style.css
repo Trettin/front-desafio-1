@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 70px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.12);
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 140px;
+}
+
+.nav {
+    display: flex;
+    list-style: none;    
+}
+.nav li {
+    margin: 0 24px;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 19px;
+    color: #545454;
+}
+
+main {
+    display: flex;
+    background-color: #f5f5f5;
+    justify-content: center;
+    padding-top: 56px;
+    column-gap: 50px;
+}
+
+.card {
+    width: 730px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    margin-bottom: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card h1 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    margin-bottom: 8px;
+    margin-left: 24px;
+}
+
+.card .subtitulo {
+    margin-left: 24px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #929292;
+    margin-bottom: 14px;
+}
+
+.card .conteudocard {
+    margin: 24px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #545454;
+
+}
+
+.card a {
+    align-self: flex-end;
+    margin-right: 24px;
+    border: 1px solid #FE0078;
+    box-sizing: border-box;
+    border-radius: 20px;
+    color: #545454;
+    background-color: #ffffff;
+    padding: 12px 24px;
+    font-size: 14px;
+    line-height: 19px;
+
+}
+
+.card a:focus, .menu-lateral input:focus {
+    outline: none;
+}
+
+.card a:hover {
+    background-color: #FE0078;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+.menu-lateral {
+    width: 380px;
+    height: min-content;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-lateral input {
+    width: 100%;
+    padding: 17px 0 16px 20px;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+}
+
+.menu-lateral input:hover {
+    border: 1px solid #FE0078;
+}
+
+.menu-lateral input:focus {
+    border: 1px solid #FE0078;
+}
+
+.menu-lateral h2 {
+    color: #000000;
+    height: 38px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    padding-left: 11px;
+    margin-top: 25px;
+    border-left: 2px solid #FE0078;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.categorias {
+    list-style: none;
+    padding: 0;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #545454;
+}
+
+.categorias li {
+    padding-bottom: 16px;
+    padding-left: 11px;
+    margin-top: 32px;
+    border-bottom: 2px dashed #EEEEEE;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 18px;
+}
+
+.categorias li:hover {
+    border-bottom: 2px dashed #FE0078;
+    color: #FE0078;
+    cursor: pointer;
+
+}
+
+.cardPublicidade {
+    width: 100%;
+    height: 240px;
+    background-color: #EEEEEE;
+    margin: 32px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardPublicidade span {
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49px;
+    color: #545454;
+}
+
+
+footer {
+    background-color: #222222;
+    height: 70px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 19px;
+}
