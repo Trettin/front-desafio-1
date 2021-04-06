@@ -42,7 +42,7 @@ main {
     column-gap: 50px;
 }
 
-.card {
+.card, .cardContato{
     width: 730px;
     background: #FFFFFF;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
@@ -56,12 +56,14 @@ main {
 }
 
 .card h1 {
+    margin-left: 24px;
+}
+.card h1, .cardContato h1 {
     font-weight: bold;
     font-size: 24px;
     line-height: 33px;
     color: #000000;
     margin-bottom: 8px;
-    margin-left: 24px;
 }
 
 .card .subtitulo {
@@ -116,6 +118,7 @@ main {
     padding: 20px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 64px;
 }
 
 .menu-lateral input {
@@ -200,4 +203,116 @@ footer {
     align-items: center;
     font-size: 14px;
     line-height: 19px;
+}
+
+
+/* Contato */
+
+.cardContato {
+    padding: 24px;
+}
+
+.cardContato h1 {
+    margin-bottom: 24px;
+}
+
+.conteudoContato {
+    margin:0px 0px 32px 0px;   
+}
+
+.conteudoContato, .infoContato{
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.cardContato h2 {
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000; 
+    margin-bottom: 26px;
+}   
+
+.cardContato h3 {
+    margin-left: 32px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin-bottom: 14px;
+}
+
+.infoContato {
+    margin-bottom: 26px;
+}
+
+.h2entreEmContato {
+    margin-top: 14px;
+}
+
+.cardContato a {
+    align-self: flex-end;
+    margin-right: 24px;
+    border: 1px solid #FE0078;
+    box-sizing: border-box;
+    border-radius: 20px;
+    color: #FFFFFF;
+    background-color: #FE0078;
+    padding: 12px 24px;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: bold;
+
+}
+
+.cardContato a:focus, .menu-lateral input:focus {
+    outline: none;
+}
+
+.cardContato a:hover {
+    background-color: #FE0078;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formflex {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.flexitens {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+form label {
+    margin-bottom: 8px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+form input, form textarea {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+form input:hover, form textarea:hover {
+    border: 1px solid #FE0078;
+}
+
+form input:focus, form textarea:focus {
+    border: 1px solid #FE0078;
+    outline: none;
 }
