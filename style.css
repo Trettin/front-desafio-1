@@ -66,7 +66,7 @@ main {
     margin-bottom: 8px;
 }
 
-.card .subtitulo {
+.subtitulo {
     margin-left: 24px;
     font-weight: normal;
     font-size: 12px;
@@ -186,6 +186,10 @@ main {
     justify-content: center;
 }
 
+.cardPublicidade:hover {
+    cursor: pointer;
+}
+
 .cardPublicidade span {
     font-weight: normal;
     font-size: 36px;
@@ -226,6 +230,12 @@ footer {
     color: #000000;
 }
 
+.divInfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
 .cardContato h2 {
     font-size: 16px;
     line-height: 22px;
@@ -234,12 +244,12 @@ footer {
 }   
 
 .cardContato h3 {
-    margin-left: 32px;
+    margin-left: 8px;
     font-weight: bold;
     font-size: 14px;
     line-height: 19px;
     color: #000000;
-    margin-bottom: 14px;
+    
 }
 
 .infoContato {
@@ -308,6 +318,10 @@ form input, form textarea {
     border-radius: 2px;
 }
 
+form input {
+    height: 42px;
+}
+
 form input:hover, form textarea:hover {
     border: 1px solid #FE0078;
 }
@@ -315,4 +329,71 @@ form input:hover, form textarea:hover {
 form input:focus, form textarea:focus {
     border: 1px solid #FE0078;
     outline: none;
+}
+
+/* Continuar lendo */
+
+.continuaList {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+#comentarios {
+    margin-bottom: 64px;
+}
+
+#continuaCard h1, #continuaCard p {
+    color: #000000;
+    
+}
+
+#continuaCard .subtitulo {
+    color: #929292;
+}
+
+#comentarios h1{
+    margin-bottom: 24px;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+#comentarios input {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 2px;
+
+}
+
+#comentarios input:hover, #comentarios input:focus {
+    border: 1px solid #FE0078;
+}
+
+#comentarios .formflex input {
+    height: 42px;
+}
+
+#comentarios textarea {
+    margin-bottom: 48px;
+}
+
+#comentarios a {
+    align-self: flex-end;
+    margin-right: 24px;
+    border: 1px solid #FE0078;
+    box-sizing: border-box;
+    border-radius: 20px;
+    color: #FFFFFF;
+    background-color: #FE0078;
+    padding: 12px 24px;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: bold;
+}
+
+
+.sobre {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
 }
