@@ -174,7 +174,7 @@ main {
     color: #FE0078;
     cursor: pointer;
 
-}input
+}
 
 .cardPublicidade {
     width: 100%;
@@ -317,6 +317,10 @@ form input, form textarea {
     box-sizing: border-box;
     border-radius: 2px;
     padding: 16px 20px;
+}
+
+textarea {
+    resize: vertical;
 }
 
 
